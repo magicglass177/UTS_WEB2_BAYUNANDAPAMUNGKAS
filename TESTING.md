@@ -503,7 +503,21 @@ utama dan data utama tetap tersedia.
 
 **PASS**
 
-# 7. Kesimpulan
+# 7. Automated Test Laravel
+
+Automated test Laravel dijalankan dengan perintah:
+
+`php artisan test`
+
+Hasil pengujian:
+
+```text
+PASS  Tests\Unit\ExampleTest
+PASS  Tests\Feature\ExampleTest
+
+Tests: 2 passed (2 assertions)
+
+# 8. Kesimpulan
 
 Berdasarkan pengujian yang telah dilakukan, fungsi utama Sistem
 Informasi Data Riwayat Pasien Praktek THT telah berjalan sesuai
